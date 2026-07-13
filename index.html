@@ -197,6 +197,19 @@ backdrop-filter:blur(6px);
 
 <body>
 
+<audio id="musica" loop>
+    <source src="Homenaje A Willie Coln_ Idilio - Saxo Salsero _ Msica Instrumental _ Cover Audio.mp3
+" type="audio/mpeg">
+</audio>
+
+<script>
+const musica = document.getElementById("musica");
+musica.volume = 0.18;
+
+document.querySelector("button").addEventListener("click", () => {
+    musica.play();
+});
+</script>
 
 <section class="pantalla">
 
@@ -221,7 +234,7 @@ Tócame 🤍
 
 </section>
 
-<section class="frase">
+<section class="frase" id="frase1">
 
 <div class="foto">
 
@@ -237,7 +250,7 @@ Tu me enseñaste a amar🤍
 
 </section>
 
-<section class="frase" id="frase1">
+<section class="frase">
 
 <div>
 
@@ -305,6 +318,8 @@ Atte: Yopirily😙🤍
 
 </section>
 
+<section class="frase">
+
 <div class="foto">
 
 <img src="IMG-20260628-WA0072.jpg" alt="🤍">
@@ -329,6 +344,8 @@ Nunca te vayas de mi ladito, por favor 🥺🤍
 
 </div>
 
+</section>
+
 <section class="frase">
 
 <div class="foto">
@@ -345,19 +362,20 @@ Cada segundo contigo vale toda una vida. 🤍
 
 </section>
 
-</section>
-
-</section>
-
 <section class="frase">
 
 <div class="carta">
 
 <h2>
-🤍 GRACIAS POR LLEGAR A MI VIDA, TE AMO CON TODO LO QUE SOY 🤍 
+🤍 GRACIAS POR LLEGAR A MI VIDA, TE AMOO CON TODO LO QUE SOY 🤍 
 
 </h2>
 
 <br>
 
-<p>
+</div>
+
+</section>
+
+</body>
+    </html>
